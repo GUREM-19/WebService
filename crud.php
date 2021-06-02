@@ -27,9 +27,9 @@
             //echo json_encode($sql->fetchAll());
             while ($row = $sql->fetch(PDO::FETCH_NUM, PDO::FETCH_ORI_NEXT)){
                     //ALUMNOS BASE DE DATOS
-			             echo "<tr>";
+			 echo "<tr>";
                          echo  "<td>$row[0]</td>"; //MATRICULA
-			             echo  "<td>$row[1]</td>"; //NOMBRE
+			 echo  "<td>$row[1]</td>"; //NOMBRE
                          echo  "<td>$row[2]</td>"; //APELLIDO
                          echo  "<td>$row[3]</td>"; //ESTADO
                          echo  "<td><button type='button' name='add_button' class='btn btn-warning btn-xs edit' 
