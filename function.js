@@ -75,7 +75,7 @@ $(document).ready(function(){
 	}
 
 	const update =() =>{
-		//CREATE UPDATE
+		//UPDATE HANDLER
 		$.ajax({
 			url:"crud.php",
 			method:"PUT",
