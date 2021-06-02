@@ -1,2 +1,2 @@
 # WebService
-CRUD para tabla de mysql en php
+CRUD para tabla de mysql en php/rest
